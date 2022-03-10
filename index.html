@@ -78,14 +78,26 @@
             </div>
         </main>
         <section class="container">
-            <h2>How does javaScript work?</h2>
+            <h3 class="text-info">How does javaScript work?</h3>
             <p>
-
+                JavaScript is a single-threaded interpreted language. At first a javascript file is sent to the javascript engine by the browser. After that, the engine parse the code.Then the code is structured by AST which is a javascript object that contains a tree representation of the source code. Then the code is converted to machine code. Finally the machine executes the code. This is how Javascript works.
             </p>
-            <h2>What does JS event loop do?</h2>
-            <p></p>
+            <!-- <br> -->
+            <h3 class="text-info">What does JS event loop do?</h3>
+            <p>
+                <!-- The Event Loop has one simple job — to monitor the Call Stack 
+and the Callback Queue. If the Call Stack is empty, it will 
+take the first event from the queue and will push it to the 
+Call Stack, which effectively runs it. Such an iteration is 
+called a tick in the Event Loop. Each event is just a function 
+callback. -->
+            </p>
         </section>
-        <footer></footer>
+        <footer>
+            <!-- 
+                The source code is passed through a program called a compiler, which translates it into bytecode that the machine understands and can execute .
+                When the browser loads the page, the browser has a built-in interpreter that reads the JavaScript code it finds in the page and runs it . -->
+        </footer>
 
         <!-- add javascript  file  -->
         <script src="./js/app.js"></script>
