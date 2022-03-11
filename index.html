@@ -80,17 +80,12 @@
         <section class="container">
             <h3 class="text-info">How does javaScript work?</h3>
             <p>
-                JavaScript is a single-threaded interpreted language. At first a javascript file is sent to the javascript engine by the browser. After that, the engine parse the code.Then the code is structured by AST which is a javascript object that contains a tree representation of the source code. Then the code is converted to machine code. Finally the machine executes the code. This is how Javascript works.
+                JavaScript is a single-threaded interpreted programming language. At first a javascript file is sent to the javascript engine by the browser. After that, the engine parse the code.Then the code is structured by AST which is a javascript object that contains a tree representation of the source code. Then the code is converted to machine code. Finally the machine executes the code. This is how Javascript works.
             </p>
             <!-- <br> -->
             <h3 class="text-info">What does JS event loop do?</h3>
             <p>
-                <!-- The Event Loop has one simple job — to monitor the Call Stack 
-and the Callback Queue. If the Call Stack is empty, it will 
-take the first event from the queue and will push it to the 
-Call Stack, which effectively runs it. Such an iteration is 
-called a tick in the Event Loop. Each event is just a function 
-callback. -->
+                Event loop is a model in javascript. It collects and process the events to execute the code. It monitors calls stack as well as the call back queue. When the call stack is empty, the event loop takes the first event from the queue and pushes it to the call stack. The call stack runs the code. Each event is a function.
             </p>
         </section>
         <footer>
