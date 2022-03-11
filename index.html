@@ -80,12 +80,12 @@
         <section class="container">
             <h3 class="text-info">How does javaScript work?</h3>
             <p>
-                JavaScript is a single-threaded interpreted programming language. At first a javascript file is sent to the javascript engine by the browser. After that, the engine parse the code.Then the code is structured by AST which is a javascript object that contains a tree representation of the source code. Then the code is converted into machine code. Finally the machine executes the code. This is how Javascript works.
+                JavaScript is a single-threaded interpreted programming language. At first a JavaScript file is sent to the JavaScript engine by the browser. After that, the engine parse the code. Then the code is structured by AST which is a JavaScript object that contains a tree representation of the source code. Then the code is converted into machine code. Finally the machine executes the code. This is how JavaScript works.
             </p>
             <!-- <br> -->
             <h3 class="text-info">What does JS event loop do?</h3>
             <p>
-                Event loop is a process in javascript which collects and processes the events to execute the code. It monitors call stack as well as the call back queue. When the call stack is empty, the event loop takes the first task from the queue and pushes it to the call stack. The call stack runs the code. Each event is a callback function.
+                Event loop is a process in JavaScript which collects and processes the events to execute the code. It monitors call stack as well as the callback queue. When the call stack is empty, event loop takes the first task from the queue and pushes it to the call stack. The call stack runs the code. Synchronous tasks are managed by call stack but asynchronous tasks are sent to web API. It sends the asynchronous tasks to callback queue after finishing it's task. After executing the synchronous tasks, event loop takes asynchronous tasks one by one from the callback queue and sends to call stack. This is how JavaScript code runs in a event driven way.
             </p>
         </section>
         <footer>
