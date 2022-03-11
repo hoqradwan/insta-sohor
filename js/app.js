@@ -1,3 +1,10 @@
+/*
+  1. love button does not work. (done)
+  2. User profile picture is not showing at the top left corner of the card. (done)
+  3. text less than 30 characters is not showing properly. (done)
+  4. User names and user comments are showing undefined. (done)
+  5. card number increases when the tab is switched from love to home. (done)
+ */
 let posts=[ ];
 
 const likedPostsId = [];
